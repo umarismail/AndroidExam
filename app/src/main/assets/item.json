@@ -1,0 +1,259 @@
+[
+  {
+    "itemName": "Glazed Donut",
+    "subtitle": "Classic and sweet",
+    "catId": "1",
+    "imageUrl": "https://images.unsplash.com/photo-1506224477000-07aa8a76be20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "itemName": "Chocolate Frosted Donut",
+    "subtitle": "Rich chocolatey goodness",
+    "catId": "1",
+    "imageUrl": "https://images.unsplash.com/photo-1506224477000-07aa8a76be20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Jelly Donut",
+    "subtitle": "Filled with fruity jam",
+    "catId": "1",
+    "imageUrl": "https://images.unsplash.com/photo-1506224477000-07aa8a76be20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Boston Cream Donut",
+    "subtitle": "Creamy custard-filled",
+    "catId": "1",
+    "imageUrl": "https://images.unsplash.com/photo-1506224477000-07aa8a76be20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Powdered Sugar Donut",
+    "subtitle": "Dusty with sweetness",
+    "catId": "1",
+    "imageUrl": "https://images.unsplash.com/photo-1506224477000-07aa8a76be20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Cinnamon Roll",
+    "subtitle": "Swirled with cinnamon",
+    "catId": "1",
+    "imageUrl": "https://images.unsplash.com/photo-1506224477000-07aa8a76be20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Maple Bar",
+    "subtitle": "Topped with maple glaze",
+    "catId": "1",
+    "imageUrl": "https://images.unsplash.com/photo-1506224477000-07aa8a76be20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Apple Fritter",
+    "subtitle": "Chunks of apple",
+    "catId": "1",
+    "imageUrl": "https://images.unsplash.com/photo-1506224477000-07aa8a76be20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Old Fashioned Donut",
+    "subtitle": "Crispy and cake-like",
+    "catId": "1",
+    "imageUrl": "https://images.unsplash.com/photo-1506224477000-07aa8a76be20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Sprinkle Donut",
+    "subtitle": "Colorful sprinkles on top",
+    "catId": "1",
+    "imageUrl": "https://images.unsplash.com/photo-1506224477000-07aa8a76be20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Apple",
+    "subtitle": "Crisp and juicy",
+    "catId": "2",
+    "imageUrl": "https://images.unsplash.com/photo-1523033904333-243d0283acae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "itemName": "Banana",
+    "subtitle": "Soft and sweet",
+    "catId": "2",
+    "imageUrl": "https://images.unsplash.com/photo-1523033904333-243d0283acae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Orange",
+    "subtitle": "Tangy and refreshing",
+    "catId": "2",
+    "imageUrl": "https://images.unsplash.com/photo-1523033904333-243d0283acae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Strawberry",
+    "subtitle": "Sweet and vibrant",
+    "catId": "2",
+    "imageUrl": "https://images.unsplash.com/photo-1523033904333-243d0283acae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Grapes",
+    "subtitle": "Bursting with flavor",
+    "catId": "2",
+    "imageUrl": "https://images.unsplash.com/photo-1523033904333-243d0283acae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Pineapple",
+    "subtitle": "Tropical and juicy",
+    "catId": "2",
+    "imageUrl": "https://images.unsplash.com/photo-1523033904333-243d0283acae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Mango",
+    "subtitle": "Rich and tropical ",
+    "catId": "2",
+    "imageUrl": "https://images.unsplash.com/photo-1523033904333-243d0283acae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Watermelon",
+    "subtitle": "Cool and hydrating",
+    "catId": "2",
+    "imageUrl": "https://images.unsplash.com/photo-1523033904333-243d0283acae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Peach",
+    "subtitle": "Sweet and fragrant",
+    "catId": "2",
+    "imageUrl": "https://images.unsplash.com/photo-1523033904333-243d0283acae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Blueberry",
+    "subtitle": "Tiny and packed ",
+    "catId": "2",
+    "imageUrl": "https://images.unsplash.com/photo-1523033904333-243d0283acae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Chow Mein",
+    "subtitle": "Stir-fried noodles ",
+    "catId": "3",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?q=80&w=2138&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "itemName": "Kung Pao Chicken",
+    "subtitle": "Spicy chicken ",
+    "catId": "3",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?q=80&w=2138&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Sweet and Sour Pork",
+    "subtitle": "Tangy pork",
+    "catId": "3",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?q=80&w=2138&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Mapo Tofu",
+    "subtitle": "Spicy tofu ",
+    "catId": "3",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?q=80&w=2138&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Peking Duck",
+    "subtitle": "Crispy-skinned ",
+    "catId": "3",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?q=80&w=2138&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+
+  {
+    "itemName": "Wonton Soup",
+    "subtitle": "Delicate dumplings",
+    "catId": "3",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?q=80&w=2138&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Chili Garlic Noodles",
+    "subtitle": "Noodles tossed",
+    "catId": "3",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?q=80&w=2138&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "June-bearing Strawberries",
+    "subtitle": "Sweet and abundant",
+    "catId": "4",
+    "imageUrl": "https://images.unsplash.com/photo-1438907046657-4ae137eb8c5e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "itemName": "Everbearing Strawberries",
+    "subtitle": "Produces fruit",
+    "catId": "4",
+    "imageUrl": "https://images.unsplash.com/photo-1438907046657-4ae137eb8c5e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Day-neutral Strawberries",
+    "subtitle": "Fruits even in cooler ",
+    "catId": "4",
+    "imageUrl": "https://images.unsplash.com/photo-1438907046657-4ae137eb8c5e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+
+  {
+    "itemName": "Grilled Chicken Skewers",
+    "subtitle": "Juicy chicken ",
+    "catId": "5",
+    "imageUrl": "https://images.unsplash.com/photo-1614119068601-483274e9dcb7?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "itemName": "Beef Kebabs",
+    "subtitle": "Tender beef chunks ",
+    "catId": "5",
+    "imageUrl": "https://images.unsplash.com/photo-1614119068601-483274e9dcb7?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Chicken Tikka",
+    "subtitle": "Spiced chicken pieces ",
+    "catId": "5",
+    "imageUrl": "https://images.unsplash.com/photo-1614119068601-483274e9dcb7?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "BBQ Beef Ribs",
+    "subtitle": "Succulent ribs",
+    "catId": "5",
+    "imageUrl": "https://images.unsplash.com/photo-1614119068601-483274e9dcb7?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Grilled Chicken Breast",
+    "subtitle": "Marinated chicken ",
+    "catId": "5",
+    "imageUrl": "https://images.unsplash.com/photo-1614119068601-483274e9dcb7?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Steak Fajitas",
+    "subtitle": "Grilled steak ",
+    "catId": "5",
+    "imageUrl": "https://images.unsplash.com/photo-1614119068601-483274e9dcb7?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  },
+  {
+    "itemName": "Teriyaki Chicken",
+    "subtitle": "Grilled chicken ",
+    "catId": "5",
+    "imageUrl": "https://images.unsplash.com/photo-1614119068601-483274e9dcb7?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+  }
+
+]
