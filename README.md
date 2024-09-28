@@ -16,7 +16,7 @@ A pinned EditText at the top of the screen for user input.
 # Reference Links
 [Kotlin Documentation](https://kotlinlang.org/docs/home.html)
 [MVVM Architecture](https://developer.android.com/topic/architecture)
-[Hilt Documentation](https://developer.android.com/training/dependency-injection/hilt-android)ViewPager
+[Hilt Documentation](https://developer.android.com/training/dependency-injection/hilt-android)
 [RecyclerView](https://developer.android.com/develop/ui/views/layout/recyclerview)
 
 
