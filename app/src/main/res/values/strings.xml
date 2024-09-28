@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">AndroidExam</string>
     <string name="search">Search</string>
+    <string name="fabbutton">fabButton</string>
+    <string name="total_items">Total Items</string>
+    <string name="top_characters">Top Characters</string>
+    <string name="statistics">Statistics</string>
 </resources>

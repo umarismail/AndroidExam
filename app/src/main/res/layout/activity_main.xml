@@ -106,5 +106,13 @@
 
 
     </androidx.core.widget.NestedScrollView>
-
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/countBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/fabbutton"
+        android:src="@drawable/baseline_filter_list_24"
+        app:layout_anchorGravity="end|bottom"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

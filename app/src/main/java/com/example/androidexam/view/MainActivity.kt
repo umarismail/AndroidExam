@@ -1,10 +1,9 @@
 package com.example.androidexam.view
 
-import android.graphics.drawable.ColorDrawable
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -20,13 +19,16 @@ import com.example.androidexam.common.filterItemsByName
 import com.example.androidexam.common.setUpIndicator
 import com.example.androidexam.common.updateIndicator
 import com.example.androidexam.databinding.ActivityMainBinding
+import com.example.androidexam.databinding.BottomSheetStatisticsBinding
 import com.example.androidexam.model.ItemsModel
 import com.example.androidexam.viewModel.ImageViewModel
 import com.example.androidexam.viewModel.ItemsViewModel
+import com.google.android.material.bottomsheet.BottomSheetDialog
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
+    private lateinit var updatedItemList: List<ItemsModel>
     private lateinit var viewModelItem: ItemsViewModel
     private  var catId: String=""
     private var itemList: List<ItemsModel> = emptyList()
@@ -45,13 +47,12 @@ class MainActivity : AppCompatActivity() {
 
         window.statusBarColor = ContextCompat.getColor(this, R.color.white)
         window.navigationBarColor = ContextCompat.getColor(this, R.color.white)
-
-// Make the status bar icons dark to be visible on the white background
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+
 
         getDataFromViewModel()
         viewPagerControl()
-         listeners()
+        listeners()
     }
     private fun getDataFromViewModel() {
         viewModel = ViewModelProvider(this)[ImageViewModel::class.java]
@@ -101,7 +102,47 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
+        //fab btn click
+        binding.countBtn.setOnClickListener {
+            showBottomSheetDialog()
+        }
     }
+    @SuppressLint("SetTextI18n")
+    private fun showBottomSheetDialog() {
+        val bottomSheetBinding = BottomSheetStatisticsBinding.inflate(layoutInflater)
+
+        // Create BottomSheetDialog
+        val bottomSheetDialog = BottomSheetDialog(this)
+        bottomSheetDialog.setContentView(bottomSheetBinding.root)
+
+        // Set the data in the Bottom Sheet
+        val itemCount = updatedItemList.size
+        val characterOccurrences = getTopCharacters(updatedItemList)
+
+        bottomSheetBinding.itemsCountTextView.text =
+            """${getString(R.string.total_items)} ($itemCount)"""
+        bottomSheetBinding.topCharactersTextView.text = characterOccurrences.joinToString("\n") { "${it.key} = ${it.value}" }
+
+        // Show  bottom sheet
+        bottomSheetDialog.show()
+    }
+
+    private fun getTopCharacters(itemList: List<ItemsModel>): List<Map.Entry<Char, Int>> {
+        val charCount = mutableMapOf<Char, Int>()
+
+        // Iterate through each item's name
+        itemList.forEach { item ->
+            item.itemName.forEach { char ->
+                if (char.isLetter()) {
+                    charCount[char] = charCount.getOrDefault(char, 0) + 1
+                }
+            }
+        }
+
+        // Sort characters by their occurrence and get the top 3
+        return charCount.entries.sortedByDescending { it.value }.take(3)
+    }
+
     private fun viewPagerControl() {
 
         binding.viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
@@ -109,8 +150,7 @@ class MainActivity : AppCompatActivity() {
                 super.onPageSelected(position)
                 catId=(position+1).toString()
 
-                val updatedItemList=filterItemsByCatId(catId,itemList)
-                Log.d("sdfsd"," updatedItemList   $updatedItemList")
+                 updatedItemList=filterItemsByCatId(catId,itemList)
                 initItemRecyclerView(updatedItemList)
                 updateIndicator(position, binding.indicatorLayout,this@MainActivity)
             }
