@@ -17,6 +17,21 @@ fun filterItemsByName(searchText: String, itemsList: List<ItemsModel>): List<Ite
 fun filterItemsByCatId(catId: String, itemsList: List<ItemsModel>): List<ItemsModel> {
     return itemsList.filter { it.catId == catId }
 }
+ fun getTopCharacters(itemList: List<ItemsModel>): List<Map.Entry<Char, Int>> {
+    val charCount = mutableMapOf<Char, Int>()
+
+    // Iterate through each item's name
+    itemList.forEach { item ->
+        item.itemName.forEach { char ->
+            if (char.isLetter()) {
+                charCount[char] = charCount.getOrDefault(char, 0) + 1
+            }
+        }
+    }
+
+    // Sort characters by their occurrence and get the top 3
+    return charCount.entries.sortedByDescending { it.value }.take(3)
+}
 
  fun updateIndicator(position: Int, indicatorLayout: LinearLayout, mainActivity: MainActivity) {
     val count = indicatorLayout.childCount

@@ -16,6 +16,7 @@ import com.example.androidexam.adapters.ImageAdapter
 import com.example.androidexam.adapters.ItemsAdapter
 import com.example.androidexam.common.filterItemsByCatId
 import com.example.androidexam.common.filterItemsByName
+import com.example.androidexam.common.getTopCharacters
 import com.example.androidexam.common.setUpIndicator
 import com.example.androidexam.common.updateIndicator
 import com.example.androidexam.databinding.ActivityMainBinding
@@ -127,21 +128,7 @@ class MainActivity : AppCompatActivity() {
         bottomSheetDialog.show()
     }
 
-    private fun getTopCharacters(itemList: List<ItemsModel>): List<Map.Entry<Char, Int>> {
-        val charCount = mutableMapOf<Char, Int>()
 
-        // Iterate through each item's name
-        itemList.forEach { item ->
-            item.itemName.forEach { char ->
-                if (char.isLetter()) {
-                    charCount[char] = charCount.getOrDefault(char, 0) + 1
-                }
-            }
-        }
-
-        // Sort characters by their occurrence and get the top 3
-        return charCount.entries.sortedByDescending { it.value }.take(3)
-    }
 
     private fun viewPagerControl() {
 
